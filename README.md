@@ -1,4 +1,0 @@
-webscreenshot
-=============
-
-screenshot web application
