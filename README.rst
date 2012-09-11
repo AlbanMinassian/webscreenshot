@@ -33,6 +33,7 @@ Todo
 
 - passer en argument un fichier json des urls à capturer 
 - indiquer un répertoire de destination 
+- voir code phantomjs-screenshots
 
 Exemples phantomjs utiles : 
 -----------------------------------------
