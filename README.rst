@@ -63,3 +63,7 @@ fonctionne mais le résulat n'est pas exactement ce qui est attendu ! ::
     casper.run(function() {
         this.exit();
     });
+
+scite ::
+
+    command.go.$(file.patterns.js)="C:\Program Files\phantomjs-1.6.1\phantomjs.exe" $(FileNameExt)
