@@ -6,7 +6,7 @@ webscreenshot
 Présentation
 -----------------------------------------
 
-Capture d'écrans web en lot à l'aide de `phantomjs <http://phantomjs.org>`_ (car échec avec code `casper.js <http://casperjs.org>`, cf code à la fin).
+Capture d'écrans web en lot à l'aide de `phantomjs <http://phantomjs.org>`_ (car échec avec code `casper.js <http://casperjs.org>`_, cf code à la fin).
 
 Usage
 -----------------------------------------
@@ -46,13 +46,12 @@ Exemples phantomjs utiles :
 Code casper.js
 -----------------------------------------------------
 
-fonctionne mais le résulat n'est pas exactement ce qui est attendu ! 
+fonctionne mais le résulat n'est pas exactement ce qui est attendu ! ::
 
-::
     phantom.casperPath = 'C:\\Documents and Settings\\ami44\\Mes documents\\casperjs';
     phantom.injectJs(phantom.casperPath + '\\bin\\bootstrap.js');
     var utils = require('utils'); // inclus dans casper.js
-    
+
     var casper = require('casper').create({});
     casper.start();
     casper.open('http://backbone4.localhost');
